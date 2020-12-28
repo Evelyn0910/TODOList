@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDoList</title>
+	<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+	<div id='top'>
+		<div class='nav'>
+			<a href="">TodoList</a>
+			<div class='add_item'>
+				<input type="text">
+				<button id='add' onclick='add()'>add</button>
+			</div>
+		</div>
+	</div>
+	<div id='body'>
+		<div class='main'>
+			<div class='isDoing'>
+				<h2>正在进行</h2>
+				<ul id='doingul'>
+				</ul>
+			</div>
+			<div class='haveDone'>
+				<h2>已经完成</h2>
+				<ul id='doneul'>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+<script src='./index.js'></script>
+</html>
